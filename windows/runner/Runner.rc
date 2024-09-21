@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "darktheme" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "darktheme" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "darktheme.exe" "\0"
             VALUE "ProductName", "darktheme" "\0"
+=======
+            VALUE "FileDescription", "camscanner" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "camscanner" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "camscanner.exe" "\0"
+            VALUE "ProductName", "camscanner" "\0"
+>>>>>>> 3cbf2b0 (first commit)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

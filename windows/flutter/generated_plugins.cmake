@@ -3,6 +3,11 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
+=======
+  file_selector_windows
+  permission_handler_windows
+>>>>>>> 3cbf2b0 (first commit)
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

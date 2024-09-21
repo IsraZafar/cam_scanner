@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # darktheme
+=======
+# camscanner
+>>>>>>> 3cbf2b0 (first commit)
 
 A new Flutter project.
 

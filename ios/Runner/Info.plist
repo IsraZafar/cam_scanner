@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -47,3 +48,35 @@
 	<true/>
 </dict>
 </plist>
+=======
+  <!-- Basic Configuration -->
+  <key>CFBundleName</key>
+  <string>Runner</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.example.yourapp</string>
+  <key>CFBundleVersion</key>
+  <string>1.0</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+
+  <!-- Permissions for camera and photo library -->
+  <key>NSCameraUsageDescription</key>
+  <string>We need access to your camera to scan documents.</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>We need access to your photo library to save documents.</string>
+
+  <!-- Launch Screen Configuration -->
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+
+  <!-- Device Capabilities -->
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>camera</string>
+  </array>
+
+  <!-- Add any other necessary configurations here -->
+
+</dict>
+</plist>
+>>>>>>> 3cbf2b0 (first commit)
